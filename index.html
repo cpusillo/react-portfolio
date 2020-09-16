@@ -11,8 +11,16 @@
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <nav class="navbar navbar-dark bg-dark">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <a class="navbar-brand" href="#"><i class="fas fa-cog fa-spin"></i> CP-DEV</a>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav">
+            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+            <a class="nav-item nav-link" href="#personal">Personal Projects</a>
+            <a class="nav-item nav-link" href="#bootcamp">Rutgers Bootcamp</a>
+            <a class="nav-item nav-link" href="#more">More!</a>
+          </div>
+        </div>
       </nav>
     <section class="hero">
         <div class="hero-text">
@@ -20,7 +28,7 @@
         <p class="lead">Aspiring Full Stack Engineer</p>
     </div>
     </section>
-    <section class="projects">
+    <section class="projects" id="personal">
         <div class="container">
             <h2>Personal Projects</h2>
             <div class="row">
@@ -58,11 +66,16 @@
         </div>
     </section>
 
-    <section class="bootcamp">
+    <section class="bootcamp" id="bootcamp">
         <div class="container">
             <h2>Rutgers Coding Bootcamp</h2>
     </div>
     </section>
 
+    <section class="more" id="more">
+        <div class="container">
+            <h2>More About Me!</h2>
+    </div>
+    </section>
 </body>
 </html>
