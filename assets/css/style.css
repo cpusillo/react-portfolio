@@ -62,3 +62,11 @@ h1, h2, h3 {
     padding-top: 50px;
     text-align: center;
 }
+
+.projects img {
+    transition: 0.5s all ease-in-out; 
+}
+
+.projects img:hover {
+    transform: scale(1.1); 
+}
