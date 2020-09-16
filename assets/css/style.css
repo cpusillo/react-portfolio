@@ -11,6 +11,7 @@ section {
 h1, h2, h3 {
     font-family: 'Righteous', sans-serif !important;
     text-transform: uppercase;
+    padding: 15px;
 }
 .hero {
     background: url(../img/hero.jpg);
@@ -63,10 +64,12 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.projects img {
-    transition: 0.5s all ease-in-out; 
+.projects h2 {
+    padding-bottom: 30px;
+    border-bottom: 1px solid black;
 }
 
-.projects img:hover {
-    transform: scale(1.1); 
+.card {
+    overflow: auto !important;
 }
+
