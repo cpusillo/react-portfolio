@@ -1,11 +1,16 @@
 body {
     font-family: 'Roboto', Arial, sans-serif;
+    background-color: #f7f7f7;
     margin: 0;
     padding: 0;
 }
 section {
     margin: 0;
     padding: 0;
+}
+h1, h2, h3 {
+    font-family: 'Righteous', sans-serif !important;
+    text-transform: uppercase;
 }
 .hero {
     background: url(../img/hero.jpg);
@@ -48,4 +53,9 @@ section {
 }
 .navbar-brand {
     font-family: 'Righteous', sans-serif !important;
+}
+
+.projects {
+    padding-top: 50px;
+    text-align: center;
 }
