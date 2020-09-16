@@ -64,9 +64,10 @@ h1, h2, h3 {
     text-align: center;
 }
 
-.projects h2 {
-    padding-bottom: 30px;
+section h2 {
+    margin-bottom: 30px;
     border-bottom: 1px solid black;
+    text-align: center;
 }
 
 .card {
