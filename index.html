@@ -9,65 +9,70 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/background.css">
 </head>
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg">
-        <a class="navbar-brand" href="#"><i class="fas fa-cog fa-spin"></i> CP-DEV</a>
+    <nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#"><i class="fas fa-cog fa-spin"></i> Corrine</a>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#personal">Personal Projects</a>
+            <a class="nav-item nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             <a class="nav-item nav-link" href="#bootcamp">Rutgers Bootcamp</a>
-            <a class="nav-item nav-link" href="#more">More!</a>
+            <a class="nav-item nav-link" href="#personal">Personal Projects</a>
+            
+            
           </div>
         </div>
       </nav>
+
+
     <section class="hero">
         <div class="hero-text">
-        <h1>Corrine Pusillo</h1>
-        <p class="lead">Aspiring Full Stack Engineer</p>
+        <h1>Hi! My name is <br/><span id="name">Corrine Pusillo</span></h1>
+        <p class="lead">I'm an aspiring Full Stack Developer.</p>
         <a href="https://linkedin.com/in/corrine-pusillo" target="_blank" alt="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
         <a href="mailto:cpusillo@gmail.com" alt="email"><i class="far fa-envelope"></i></a>
         <a href="http://github.com/cpusillo" target="_blank" alt="Github"><i class="fab fa-github"></i></a>
       </div>
         
     </section>
+    
     <section class="projects" id="personal">
         <div class="container">
             <h2>Personal Projects</h2>
             <div class="row">
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                        <img class="card-img-top" src="assets/img/todolist.PNG" alt="Card image cap">
-                        <div class="card-body">
-                          <h5 class="card-title">Simple ToDo</h5>
-                          <p class="card-text">A simple jQuery todo list.</p>
-                          <a href="https://cpusillo.github.io/simpleTodo/" class="btn btn-outline-danger">Go now!</a>
-                        </div>
-                      </div>
-                </div>
-                <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/dieRoller.PNG" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Die Roller</h5>
-                      <p class="card-text">A no-frills vanilla JS polyhedral die roller!</p>
-                      <a href="https://cpusillo.github.io/dieRoller/" class="btn btn-outline-danger">Show me!</a>
+                  <div class="card">
+                    <div class="card-header"><h3>To Do List</h3></div>
+                    <div class="card-body"><img src="assets/img/todolist.PNG"></div>
+                      <div class="card-footer">
+                      <a href="http://cpusillo.github.io/simpleTodo" target="_blank" class="btn btn-outline-primary btn-block">Let's go!</a>
                     </div>
-                  </div>
-                </div>
+                  </div><!-- card -->
+
+                </div><!-- col 1-->
                 <div class="col-sm">
-                    <div class="card" style="width: 18rem;">
-                    <img class="card-img-top" src="assets/img/scoreKeep.PNG" alt="Card image cap">
-                    <div class="card-body">
-                      <h5 class="card-title">Score Keep</h5>
-                      <p class="card-text">Allows users to manually keep score of..something!</p>
-                      <a href="https://cpusillo.github.io/scorekeep/" class="btn btn-outline-danger">Let's see!</a>
+                  <div class="card">
+                    <div class="card-header"><h3>Die Roller</h3></div>
+                    <div class="card-body"><img src="assets/img/dieRoller.PNG"></div>
+                      <div class="card-footer">
+                      <a href="https://cpusillo.github.io/dieroller/" target="_blank" class="btn btn-outline-primary btn-block">Let's go!</a>
                     </div>
-                  </div>
-                </div>
-              </div>
-        </div>
+                  </div><!-- card -->
+
+                </div> <!-- col 2 -->
+                <div class="col-sm">
+                  <div class="card">
+                    <div class="card-header"><h3>Score Keep</h3></div>
+                    <div class="card-body"><img src="assets/img/scoreKeep.PNG"></div>
+                      <div class="card-footer">
+                      <a href="https://cpusillo.github.io/scorekeep/" target="_blank" class="btn btn-outline-primary btn-block">Let's go!</a>
+                    </div>
+                  </div><!-- card -->
+
+                </div> <!-- col 3-->
+              </div> <!-- row -->
+        </div> <!-- container -->
     </section>
 
     <section class="bootcamp" id="bootcamp">
@@ -76,10 +81,6 @@
     </div>
     </section>
 
-    <section class="more" id="more">
-        <div class="container">
-            <h2>More About Me!</h2>
-    </div>
-    </section>
+    
 </body>
 </html>
