@@ -90,8 +90,26 @@ section h2 {
     border-radius: 14px;
     margin-bottom: 20px;
 }
-
 .more ul {
     list-style: none;
-    
+}
+.more li {
+    display: inline-block;
+    margin: 10px 15px;
+}
+.more i {
+    overflow: hidden;
+    transition: transform 0.3s ease;
+
+}
+.more i:hover {
+    transform: scale(1.5);
+}
+
+#skills {
+    width: 80%;
+    margin: 0 auto;
+}
+.none {
+    display: none;
 }
