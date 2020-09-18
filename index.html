@@ -5,8 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Corrine Pusillo</title>
 
+    <!-- External Fonts, CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Righteous&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS-->
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/background.css">
     <link rel="stylesheet" href="assets/css/icons.css">
@@ -17,21 +20,23 @@
         <a class="navbar-brand" href="#">Corrine</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
-        </button>
-      
+        </button>     
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav mr-auto">
-            <li class="nav-item active">
-              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#more">About</a>
+            <li class="nav-item active dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Home
+              </a>
+              <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <a class="dropdown-item" href="#more">About</a>
+              
+              </div>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="portfolio.html">Portfolio</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="">Contact</a>
+              <a class="nav-link" href="contact.html">Contact</a>
             </li>
             </ul>
 
@@ -67,20 +72,20 @@
         <div id="skills">
         <div class="row" id="front-end">      
           <ul>
-            <li><i class="fab fa-html5 fa-7x" alt="HTML5"></i></li>
-            <li><i class="fab fa-css3-alt fa-7x" alt="CSS3"></i></li>
-            <li><i class="fab fa-js fa-7x" alt="javascript"></i></li>
-            <li><i class="fab fa-php fa-7x" alt="PHP"></i></li>
-            <li><i class="fab fa-node fa-7x" alt="Node.JS"></i></li>
+            <li><i class="fab fa-html5 fa-7x" alt="HTML5" title="HTML5"></i></li>
+            <li><i class="fab fa-css3-alt fa-7x" alt="CSS3" title="CSS3"></i></li>
+            <li><i class="fab fa-js fa-7x" alt="javascript" title="javascript"></i></li>
+            <li><i class="fab fa-php fa-7x" alt="PHP" title="PHP"></i></li>
+            <li><i class="fab fa-node fa-7x" alt="Node.JS" title="Node.JS"></i></li>
         </ul>
         </div>
         <div class="row" id="back-end">
           <ul>
-            <li><i class="fab fa-centos fa-7x" alt="centos"></i></li>
-            <li><i class="fab fa-docker fa-7x" alt="docker"></i></li>
-            <li><i class="fas fa-database fa-7x" alt="database"></i></li>
-            <li><i class="fas fa-code-branch fa-7x" alt="version-control"></i></li>
-            <li><i class="fab fa-aws fa-7x" alt="Amazon Web Services"></i></li>
+            <li><i class="fab fa-centos fa-7x" alt="centos" title="centos"></i></li>
+            <li><i class="fab fa-docker fa-7x" alt="docker" title="docker containers"></i></li>
+            <li><i class="fas fa-database fa-7x" alt="database" title="Relational DBs"></i></li>
+            <li><i class="fas fa-code-branch fa-7x" alt="version-control" title="Version control"></i></li>
+            <li><i class="fab fa-aws fa-7x" alt="Amazon Web Services" title="Amazon Web Services"></i></li>
         </ul>
       </div>
       </div>
@@ -88,6 +93,9 @@
     </section>
 
     <script src="https://kit.fontawesome.com/8a95b1eafc.js" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
 </body>
 </html>
