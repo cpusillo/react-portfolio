@@ -34,3 +34,15 @@
 .fa-aws {
     color: #f8981d;
 }
+
+@media screen and (max-width: 768px){
+    .more i {
+        font-size: 30px;
+    }
+    .more li {
+        display: inline-block;
+    }
+    .more ul {
+        width: 100%;
+    }
+}

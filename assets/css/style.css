@@ -155,3 +155,16 @@ li a:focus {
     flex-direction: column;
     justify-content: space-between
   }
+
+  @media screen and (max-width: 768px){
+    .hero h1 {
+        font-size: 2em;
+    }
+    .hero .lead {
+        font-size: 14px;
+    }
+    .hero img {
+        width: 50%;
+        height: auto;
+    }
+}
