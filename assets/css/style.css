@@ -89,6 +89,12 @@ section h2 {
     text-align: center;
 }
 
+.projects img {
+    width: 80%;
+    height: 80%;
+    margin: 0 auto;
+}
+
 
 /* MORE ABOUT ME & SKILLS */
 .more {
