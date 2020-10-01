@@ -1,4 +1,6 @@
 # cpusillo.github.io
-This portfolio site is a work in progress. Started September 2020.
+Welcome to my portfolio!
 
-Please be patient, there are good things coming!
+Here you will find a brief description of my professional life and a few web development projects I have completed.
+
+The site features a contact form so that you may get in touch with me if desired.
