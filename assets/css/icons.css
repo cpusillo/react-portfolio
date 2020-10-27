@@ -25,7 +25,7 @@
 }
 
 .fa-database {
-    color: #feb000;
+    color: #8e44ad;
 }
 
 .fa-code-branch {
@@ -33,6 +33,9 @@
 }
 .fa-aws {
     color: #f8981d;
+}
+.fa-marker {
+    color: #3498db;
 }
 
 @media screen and (max-width: 768px){
