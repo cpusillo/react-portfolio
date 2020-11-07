@@ -39,6 +39,7 @@ section h2 {
 /* NAVIGATION */
 .navbar-brand {
     font-family: 'Righteous', sans-serif !important;
+    padding-top: 10px;
 }
 
 /* HERO SECTION */
