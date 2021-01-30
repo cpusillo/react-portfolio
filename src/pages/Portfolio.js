@@ -21,6 +21,7 @@ class Portfolio extends Component{
                 description={project.description}
                 technologies={project.technologies}
                 href={project.href}
+                img={project.img}
                 />
             ))}
             </Row>

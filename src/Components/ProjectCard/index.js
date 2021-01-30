@@ -6,11 +6,11 @@ function ProjectCard(props){
         <div class="project">
             <Col>
                     <Card style={{ width: '15rem' }}>
-                    <Card.Img variant="top" src="holder.js/100px180" />
+                    <Card.Img variant="top" src={props.img} />
                     <Card.Body>
                         <Card.Title><h4>{props.name}</h4></Card.Title>
                         <Card.Text>
-                        <p className="lead">{props.description}</p>
+                        <p>{props.description}</p>
                         <p>{props.technologies}</p>
                         </Card.Text>
                         <a href={props.href}><Button variant="success">View App</Button></a>
