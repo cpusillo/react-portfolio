@@ -4,8 +4,7 @@ import "./ProjectCard.css"
 function ProjectCard(props){
     return (  
         <div class="project">
-            <Col>
-                    <Card style={{ width: '15rem' }}>
+                    <Card>
                     <Card.Img variant="top" src={props.img} />
                     <Card.Body>
                         <Card.Title><h4>{props.name}</h4></Card.Title>
@@ -16,7 +15,6 @@ function ProjectCard(props){
                         <a href={props.href}><Button variant="success">View App</Button></a>
                     </Card.Body>
                 </Card>
-            </Col>
         </div>  
     )
 }

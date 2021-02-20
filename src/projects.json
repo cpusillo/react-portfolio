@@ -5,7 +5,7 @@
         "description": "Secure Password Generator",
         "technologies": "Javascript, JQuery",
         "href": "http://cpusillo.github.io/passbolt",
-        "img": "https://raw.githubusercontent.com/cpusillo/cpusillo.github.io/master/public/img/PASSBOLT.png"
+        "img": "https://github.com/cpusillo/react-portfolio/blob/master/public/img/PASSBOLT.png?raw=true"
     },
     {
         "id": 2,
@@ -13,7 +13,7 @@
         "description": "Medical Marijuana Strain Tracker",
         "technologies": "JQuery, Node, MySQL",
         "href": "http://protected-fjord-40168.herokuapp.com/",
-        "img": "https://raw.githubusercontent.com/cpusillo/cpusillo.github.io/master/public/img/HERBIZZLE.png"
+        "img": "https://github.com/cpusillo/react-portfolio/blob/master/public/img/HERBIZZLE.png?raw=true"
     },
     {
         "id": 3,
@@ -21,7 +21,7 @@
         "description": "React Employee Directory",
         "technologies":"React, MongoDB",
         "href": "https://cpusillo.github.io/employee-directory/",
-        "img": "https://raw.githubusercontent.com/cpusillo/cpusillo.github.io/master/public/img/EMPLOYEEDIRECTORY.png"
+        "img": "https://github.com/cpusillo/react-portfolio/blob/master/public/img/EMPLOYEEDIRECTORY.png?raw=true"
     },
     {
         "id": 4,
@@ -29,6 +29,6 @@
         "description": "JQuery Weather dashboard",
         "technologies": "JQuery, OpenWeather API",
         "href": "https://cpusillo.github.io/weather-dash/",
-        "img": "https://raw.githubusercontent.com/cpusillo/cpusillo.github.io/master/public/img/WEATHERDASH.png"
+        "img": "https://github.com/cpusillo/react-portfolio/blob/master/public/img/WEATHERDASH.png?raw=true"
     }
 ]

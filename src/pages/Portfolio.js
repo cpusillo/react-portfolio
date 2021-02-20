@@ -14,7 +14,6 @@ class Portfolio extends Component{
             <div>
             <Navbar />
             <Container>
-                <Row>
             {this.state.projects.map(project => (
                 <ProjectCard 
                 name={project.name}
@@ -24,7 +23,6 @@ class Portfolio extends Component{
                 img={project.img}
                 />
             ))}
-            </Row>
             </Container>
             </div>
         )
