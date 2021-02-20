@@ -80,6 +80,7 @@ function About(){
                     <li>MySQL</li>
                     <li>Node</li>
                     <li>SQL Server</li>
+                    <li>MongoDB</li>
                   </ul>
                 </div>
                 </div>
